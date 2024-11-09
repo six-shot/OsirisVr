@@ -6,6 +6,11 @@ const roboto_mono = localFont({
   variable: "--font-roboto-mono",
   weight: "100 900",
 });
+const neue = localFont({
+  src: "./fonts/NeueMachina-Regular.otf",
+  variable: "--font-neue",
+  weight: "100 900",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -15,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto_mono.variable}  antialiased`}>{children}</body>
+      <body className={`${roboto_mono.variable} ${neue.variable}  antialiased`}>{children}</body>
     </html>
   );
 }

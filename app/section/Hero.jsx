@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../global/Navbar";
-import hero from "@/public/hero.mp4"; // Make sure the path is correct
+
 
 export default function Hero() {
   return (
-    <div className="overflow-hidden relative w-full h-[100vh]">
+    <div className="overflow-hidden relative w-full h-[100vh] ">
       <div className="fixed right-0 top-0  h-full z-10">
         <video
           className="w-full h-full object-cover"
@@ -18,7 +18,11 @@ export default function Hero() {
 
       <div className="absolute top-0 left-0 w-full z-[50]">
         <Navbar />
-      
+      </div>
+      <div className="absolute inset-0 flex justify-start items-center z-[20] px-[4%] font-[family-name:var(--font-neue)]">
+        <h1 className="text-white uppercase text-[72px] font-bold">
+          create your <br /> own vr <br /> reality
+        </h1>
       </div>
     </div>
   );

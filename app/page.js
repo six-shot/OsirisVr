@@ -4,7 +4,7 @@ import Hero from "./section/Hero";
 
 export default function Home() {
   return (
-    <div className=" font-roboto_mono">
+    <div className="">
    
      <Hero/>
     </div>
