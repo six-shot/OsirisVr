@@ -2,20 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  background-color: #010101;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.btn{
+  position: relative;
+}
+.corner-1{
+  position: absolute;
+  width:8px;
+  height:2px;
+  background-color: #FCFF80ed;
+  top:0;
+  left: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85), 0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #B7FFEF;
+}
+.corner-2{
+  position: absolute;
+  width:2px;
+  height:8px;
+  background-color: #FCFF80ed;
+  top:0;
+  left: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85), 0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #B7FFEF;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.corner-3{
+  position: absolute;
+  width:8px;
+  height:2px;
+  background-color: #FCFF80ed;
+  top:0;
+  right: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85), 0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #B7FFEF;
 }
+.corner-4{
+  position: absolute;
+  width:2px;
+  height:8px;
+  background-color: #FCFF80ed;
+  top:0;
+  right: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85), 0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #B7FFEF;
+}
+
+.corner-5{
+  position: absolute;
+  width:8px;
+  height:2px;
+  background-color: #FCFF80ed;
+  bottom:0;
+  left: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85), 0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #B7FFEF;
+}
+.corner-6{
+  position: absolute;
+  width:2px;
+  height:8px;
+  background-color: #FCFF80ed;
+  bottom:0;
+  left: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85), 0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #B7FFEF;
+}
+
+.corner-7{
+  position: absolute;
+  width:8px;
+  height:2px;
+  background-color: #FCFF80ed;
+  bottom:0;
+  right: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85), 0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #B7FFEF;
+}
+.corner-8{
+  position: absolute;
+  width:2px;
+  height:8px;
+  background-color: #FCFF80ed;
+  bottom:0;
+  right: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85), 0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #B7FFEF;
+}
+
