@@ -19,11 +19,11 @@ export default function Hero() {
       <div className="absolute top-0 left-0 w-full z-[50]">
         <Navbar />
       </div>
-      <div className="absolute inset-0 flex justify-start items-center z-[20] px-[4%] font-[family-name:var(--font-neue)]">
-        <h1 className="text-white uppercase text-[72px] font-bold">
-          create your <br /> own vr <br /> reality
-        </h1>
-      </div>
+      // <div className="absolute inset-0 flex justify-start items-center z-[20] px-[4%] font-[family-name:var(--font-neue)]">
+      //   <h1 className="text-white uppercase text-[72px] font-bold">
+      //     create your <br /> own vr <br /> reality
+      //   </h1>
+      // </div>
     </div>
   );
 }
