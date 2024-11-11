@@ -85,3 +85,9 @@ body{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85), 0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #B7FFEF;
 }
 
+.txt{
+  -webkit-text-stroke: 1px rgba(103, 233, 203, .54);
+}
+.txt1{
+      -webkit-text-stroke: 1px rgba(103, 233, 203, .24);
+}

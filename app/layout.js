@@ -7,7 +7,7 @@ const roboto_mono = localFont({
   weight: "100 900",
 });
 const neue = localFont({
-  src: "./fonts/NeueMachina-Regular.otf",
+  src: "./fonts/neue-machinabold.ttf",
   variable: "--font-neue",
   weight: "100 900",
 });
