@@ -5,7 +5,7 @@ import Building from "./section/Building";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
    
      <Hero/>
      <Building/>

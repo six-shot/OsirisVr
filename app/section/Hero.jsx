@@ -4,7 +4,7 @@ import Navbar from "../global/Navbar";
 export default function Hero() {
   return (
     <div className="overflow-hidden relative w-full h-[100vh] ">
-      <div className="fixed right-0 top-0  h-full z-10">
+      <div className="absolute right-0 top-0  h-[100vh] z-10">
         <video
           className="w-full h-full object-cover"
           src={"/hero.mp4"}
