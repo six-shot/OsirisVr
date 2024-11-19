@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Building() {
   return (
-    <div className="h-screen relative  w-full">
+    <div className="h-[120vh] relative  w-full">
       <video
         className="absolute left-0 top-1/2 transform -translate-y-1/2 w-[700px] h-[550px] object-cover  z-10"
         src={"/building.mp4"}
@@ -14,9 +14,10 @@ export default function Building() {
       <div className="h-full max-w-[1440px] mx-auto  relative ">
         <span className="absolute top-0 left-0 w-[1px] h-[100vh] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
         <span className="absolute top-0 right-0 w-[1px] h-[100vh] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
-        <div className="grid grid-cols-2 items-center h-full">
+        <span className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[1px] h-full bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
+        <div className="grid grid-cols-2  items-center h-full">
           <div className="col-span-1 relative"></div>
-          <div className="col-span-1  ">
+          <div className="col-span-1 pl-[85px] ">
             <div className="flex flex-col font-[family-name:var(--font-neue)]">
               <div className=" h-[28px] overflow-hidden relative z-20 ">
                 <h1 className="txt  uppercase text-[3.375rem] leading-[1.2] font-bold mt-[2px] ">
@@ -60,6 +61,7 @@ export default function Building() {
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       </div>

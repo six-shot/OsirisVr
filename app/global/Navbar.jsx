@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="w-full font-[family-name:var(--font-roboto-mono)] bg-custom-gradient  h-[88px] relative flex justify-between items-center">
       <span className="absolute bottom-0 left-0 h-[1px] w-[100%] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
-      <div className="max-w-7xl mx-auto w-full flex justify-between items-center px-[4%]">
+      <div className="max-w-[1440px] mx-auto w-full flex justify-between items-center px-6 ">
         <div>
           <Image src={logo} alt="logo" />
         </div>
@@ -14,7 +14,7 @@ export default function Navbar() {
         <nav className="flex gap-[31px] items-center text-sm text-[#FFF]/80">
           <h5>Tech Specs</h5>
           <h5>Contact us</h5>
-          <div className="relative">
+          <div className="relative ">
             <button className="btn text-sm uppercase h-[44px] w-[154px]   font-roboto_mono border-[2px] border-[#FCFF80]/20">
               Buy Now
             </button>
