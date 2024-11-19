@@ -18,13 +18,22 @@ export default function Hero() {
       <div className="absolute top-0 left-0 w-full z-[50]">
         <Navbar />
       </div>
-      <div className="">
-        <div className="absolute inset-0 flex justify-start  h-[100vh] w-full items-center z-[20] font-[family-name:var(--font-neue)] px-[5.5%]">
-          <div className="relative max-w-7xl mx-auto w-full h-screen ">
+
+      <div className=" ">
+        <div className="absolute inset-0  flex items-center justify-center z-[20] font-[family-name:var(--font-neue)] px-[5.5%]">
+          <div className="relative  w-full h-full flex items-center max-w-[1440px] mx-auto ">
             <span className="absolute top-0 left-0 w-[1px] h-[100vh] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
+            <span className="absolute bottom-[6%] left-0 w-[2px] rounded-full h-[55px] bg-[#FCFF80ed] blur-[2px]"></span>
+            <span className="absolute bottom-[20%] right-0 w-[2px] rounded-full h-[55px] bg-[#FCFF80ed] blur-[2px]"></span>
             <span className="absolute top-0 right-0 w-[1px] h-[100vh] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
             <span className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[1px] h-full bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
-            <div className="flex flex-col  mt-[200px] px-[5%]">
+            <span className="absolute top-[19%] left-1/2 transform -translate-x-1/2 w-[2px] rounded-full h-[55px] bg-[#FCFF80ed] blur-[2px]"></span>
+            <span className="absolute bottom-[7%] left-1/2 transform -translate-x-1/2">
+              <h6 className="text-[13px] text-[#dddddd] leading-[1] font-light">
+                Scroll
+              </h6>
+            </span>
+            <div className="flex flex-col   px-[5%]">
               <div className="relative">
                 <div className=" h-[50px] overflow-hidden absolute bottom-[43px] -z-[60] ">
                   <h1 className="txt1  uppercase text-[4.5rem] leading-[1.2] font-bold mt-[12px] ">
