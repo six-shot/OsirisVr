@@ -3,6 +3,7 @@ import Navbar from "./global/Navbar";
 import Hero from "./section/Hero";
 import Building from "./section/Building";
 import Headset from "./section/Headset";
+import Experience from "./section/Experience";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
      <Hero/>
      <Building/>
      <Headset/>
+     <Experience/>
     </div>
   );
 }
