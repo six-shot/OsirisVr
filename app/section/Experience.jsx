@@ -5,7 +5,15 @@ import Marquee from "react-fast-marquee";
 export default function Experience() {
   return (
     <div className="text-[#d7d7d7] ">
-      <div className=" border-t border-[#F4FAFC]/20 h-[134px] flex items-center">
+      <div className="relative   max-w-[1440px] mx-auto">
+        <span className="absolute top-0 left-0 w-[1px] h-[100vh] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
+        <span className="absolute bottom-[6%] left-0 w-[2px] rounded-full h-[55px] bg-[#FCFF80ed] blur-[2px]"></span>
+        <span className="absolute bottom-[20%] right-0 w-[2px] rounded-full h-[55px] bg-[#FCFF80ed] blur-[2px]"></span>
+        <span className="absolute top-0 right-0 w-[1px] h-[100vh] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
+        <span className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[1px] h-full bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
+        <span className="absolute top-[19%] left-1/2 transform -translate-x-1/2 w-[2px] rounded-full h-[55px] bg-[#FCFF80ed] blur-[2px]"></span>
+      </div>
+      <div className=" border-t border-[#F4FAFC]/20 h-[134px] flex items-center relative z-[20] bg-black">
         <Marquee className="mq" direction="left" speed={100}>
           <div className="flex gap-20 items-center h-full">
             <h2 className="text-[54px] font-[family-name:var(--font-neue)]">
@@ -83,11 +91,13 @@ export default function Experience() {
       </div>
       <Image
         src="/experience.webp"
+        className="relative z-[20]"
         width={2000}
         height={800}
         unoptimized
         alt="experience"
       />
+   
     </div>
   );
 }
