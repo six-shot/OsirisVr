@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "./global/Footer";
 
 const roboto_mono = localFont({
   src: "./fonts/RobotoMono-Medium.ttf",
@@ -20,7 +21,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${roboto_mono.variable} ${neue.variable}  antialiased`}>{children}</body>
+      <body className={`${roboto_mono.variable} ${neue.variable}  antialiased`}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

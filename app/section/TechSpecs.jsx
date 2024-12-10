@@ -47,16 +47,18 @@ export default function TechSpecs() {
             </div>
           </div>
         </div>
-        <div className="mt-[200px]">
+        <div className="mt-[200px]  ]">
           {" "}
-          <div className=" h-[28px] overflow-hidden relative z-20 ">
-            <h1 className="txt text-black  uppercase text-[3.375rem] leading-[1.2] font-bold mt-[2px] ">
+          <div className="text-center font-[family-name:var(--font-neue)">
+            <div className=" h-[28px] overflow-hidden relative z-20 ">
+              <h1 className="txt text-black  uppercase text-[3.375rem] leading-[1.2] font-bold mt-[2px] ">
+                Get news & Updates
+              </h1>
+            </div>
+            <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
               Get news & Updates
             </h1>
           </div>
-          <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
-            Get news & Updates
-          </h1>
           <div className="flex justify-center mt-20 relative z-[10]">
             <div className="px-[7.5rem] py-[4rem] bg-[#0a0c0a]">
               <input
