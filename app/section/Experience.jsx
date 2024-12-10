@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 export default function Experience() {
   return (
-    <div className="text-[#d7d7d7] ">
+    <div className="text-[#d7d7d7]  ">
       <div className="relative   max-w-[1440px] mx-auto">
         <span className="absolute top-0 left-0 w-[1px] h-[100vh] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
         <span className="absolute bottom-[6%] left-0 w-[2px] rounded-full h-[55px] bg-[#FCFF80ed] blur-[2px]"></span>

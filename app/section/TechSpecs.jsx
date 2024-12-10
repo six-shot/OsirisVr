@@ -47,7 +47,7 @@ export default function TechSpecs() {
             </div>
           </div>
         </div>
-        <div className="mt-[200px]  ]">
+        <div className="mt-[200px]  ">
           {" "}
           <div className="text-center font-[family-name:var(--font-neue)">
             <div className=" h-[28px] overflow-hidden relative z-20 ">

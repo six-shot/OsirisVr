@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Building() {
   return (
-    <div className="h-[120vh] relative  w-full">
+    <div className="h-[120vh] relative  w-full border-b border-[#F4FAFC]/20">
       <video
         className="absolute left-0 top-1/2 transform -translate-y-1/2 w-[700px] h-[550px] object-cover  z-10"
         src={"/building.mp4"}
@@ -61,7 +61,6 @@ export default function Building() {
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
