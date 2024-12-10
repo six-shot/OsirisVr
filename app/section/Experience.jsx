@@ -47,7 +47,7 @@ export default function Experience() {
                 />
               </div>
               <div className="relative ">
-                <button className="btn text-sm uppercase h-[44px] w-[9.62rem] text-white   font-roboto_mono border-[2px] border-[#67e9cb]/20">
+                <button className="btn text-sm uppercase h-[44px] w-[9.62rem] text-white   font-[family-name:var(--font-roboto-mono)] border-[2px] border-[#67e9cb]/20">
                   Try it now
                 </button>
                 <div className="cornerr-1" />
@@ -97,7 +97,6 @@ export default function Experience() {
         unoptimized
         alt="experience"
       />
-   
     </div>
   );
 }

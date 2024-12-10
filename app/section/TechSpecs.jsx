@@ -28,7 +28,7 @@ export default function TechSpecs() {
           </div>
           <div className="text-white  relative  mt-[100px]  z-10 ">
             <div className="w-full h-[112px] border-t border-b border-[#F4FAFC]/20  flex items-center px-12  ">
-              <h4 className="text-[20px] font-roboto_mono bg-black w-full h-full flex justify-between items-center ">
+              <h4 className="text-[20px] font-[family-name:var(--font-roboto-mono)] bg-black w-full h-full flex justify-between items-center ">
                 Specifications
               </h4>
               <div className="w-[54px] h-[52px] rounded-full border border-[#F4FAFC]/20 flex items-center justify-center">
@@ -38,7 +38,7 @@ export default function TechSpecs() {
           </div>
           <div className="text-white  relative z-[20]">
             <div className="w-full h-[112px] border-t border-b border-[#F4FAFC]/20  flex justify-between items-center px-12">
-              <h4 className="text-[20px] font-roboto_mono bg-black w-full h-full flex items-center  ">
+              <h4 className="text-[20px] font-[family-name:var(--font-roboto-mono)] bg-black w-full h-full flex items-center  ">
                 Accessories
               </h4>
               <div className="w-[54px] h-[52px] rounded-full border border-[#F4FAFC]/20 flex items-center justify-center">
@@ -62,7 +62,7 @@ export default function TechSpecs() {
           <div className="flex justify-center mt-20 relative z-[10]">
             <div className="px-[7.5rem] py-[4rem] bg-[#0a0c0a]">
               <input
-                className="w-[540px] border-b border-[#F4FAFC]/20 bg-transparent placeholder:text-[#858685] font-roboto_mono pb-4 text-[18px] outline-none font-medium"
+                className="w-[540px] border-b border-[#F4FAFC]/20 bg-transparent placeholder:text-[#858685] font-[family-name:var(--font-roboto-mono)] pb-4 text-[18px] outline-none font-medium"
                 placeholder="example@email.com"
               />
               <div className="w-[540px] h-[1px] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]" />

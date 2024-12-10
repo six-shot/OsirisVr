@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import React from 'react'
-import logo from "@/public/images/logo.svg"
+import Image from "next/image";
+import React from "react";
+import logo from "@/public/images/logo.svg";
 
 export default function Navbar() {
   return (
@@ -15,7 +15,7 @@ export default function Navbar() {
           <h5>Tech Specs</h5>
           <h5>Contact us</h5>
           <div className="relative ">
-            <button className="btn text-sm uppercase h-[44px] w-[154px]   font-roboto_mono border-[2px] border-[#FCFF80]/20">
+            <button className="btn text-sm uppercase h-[44px] w-[154px]   font-[family-name:var(--font-roboto-mono)] border-[2px] border-[#FCFF80]/20">
               Buy Now
             </button>
             <div className="corner-1" />

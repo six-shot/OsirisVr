@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { IoLogoTwitch } from "react-icons/io";
 import { FaLinkedin, FaTwitter } from "react-icons/fa6";
 import { SiYoutube } from "react-icons/si";
@@ -15,11 +15,19 @@ export default function Footer() {
             <SiYoutube />
           </div>
           <nav className="flex gap-6   text-white">
-            <h5 className="font-roboto_mono">Privacy</h5>
-            <h5 className="font-roboto_mono">Legacy</h5>
-            <h5 className="font-roboto_mono">Contacts</h5>
+            <h5 className="font-[family-name:var(--font-roboto-mono)]">
+              Privacy
+            </h5>
+            <h5 className="font-[family-name:var(--font-roboto-mono)]">
+              Legacy
+            </h5>
+            <h5 className="font-[family-name:var(--font-roboto-mono)]">
+              Contacts
+            </h5>
           </nav>
-          <h6 className='font-roboto_mono text-xs text-[#dddddd]'>© 2022. All rights reserved</h6>
+          <h6 className="font-[family-name:var(--font-roboto-mono)] text-xs text-[#dddddd]">
+            © 2022. All rights reserved
+          </h6>
         </div>
       </div>
     </div>
