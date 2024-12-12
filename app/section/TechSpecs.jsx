@@ -60,12 +60,25 @@ export default function TechSpecs() {
             </h1>
           </div>
           <div className="flex justify-center mt-20 relative z-[10]">
-            <div className="px-[7.5rem] py-[4rem] bg-[#0a0c0a]">
-              <input
-                className="w-[540px] border-b border-[#F4FAFC]/20 bg-transparent placeholder:text-[#858685] font-[family-name:var(--font-roboto-mono)] pb-4 text-[18px] outline-none font-medium"
-                placeholder="example@email.com"
-              />
-              <div className="w-[540px] h-[1px] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]" />
+            <div className="px-[7.5rem] py-[4rem] bg-[#0a0c0a] flex items-center">
+              <div>
+                <div className="flex justify-between">
+                  <input
+                    className="w-[540px]  bg-transparent placeholder:text-[#858685] font-[family-name:var(--font-roboto-mono)] pb-4 text-[18px] outline-none font-medium"
+                    placeholder="example@email.com"
+                  />
+                  <div className="w-[42px] h-[42px] flex justify-center items-center rounded-full border border-[#67e9cb]">
+                    <Image
+                      src="arrowright.svg"
+                      alt="arrow-right"
+                      width={20}
+                      height={14}
+                    />
+                  </div>
+                </div>
+
+                <div className="w-[582px] h-[1px] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC] mt-2" />
+              </div>
             </div>
           </div>
         </div>
