@@ -34,11 +34,45 @@ export default function Virtual() {
               Discover new games and entertainment every day! Put yourself at
               the center of an extraordinary gaming universe powered by the VR
             </p>
-            <Image src="/vr.webp" width={540} height={360} alt="vr" />
+            <div className="relative w-[540px]">
+              <Image src="/vr.webp" width={540} height={360} alt="vr" />
+              <div className="absolute -bottom-4 right-[20px]">
+                <div className="relative w-[145px]  ">
+                  <button className="btn text-sm uppercase h-[38px] w-[145px] text-white bg-[#142824]  font-[family-name:var(--font-roboto-mono)]">
+                    Beat Staber
+                  </button>
+                  <div className="cornerrr-1" />
+                  <div className="cornerrr-2" />
+                  <div className="cornerrr-3" />
+                  <div className="cornerrr-4" />
+                  <div className="cornerrr-5" />
+                  <div className="cornerrr-6" />
+                  <div className="cornerrr-7" />
+                  <div className="cornerrr-8" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="col-span-1 px-[100px]">
-          <Image src="/vr1.webp" width={420} height={532} alt="vr" />
+          <div className='relative w-[429px]'>
+            <Image src="/vr1.webp" width={420} height={532} alt="vr" />
+            <div className="absolute -bottom-5 right-[40px]">
+              <div className="relative w-[145px]  ">
+                <button className="btn text-sm uppercase h-[38px] w-[145px] text-white bg-[#142824]  font-[family-name:var(--font-roboto-mono)]">
+                  Echo Arena
+                </button>
+                <div className="cornerrr-1" />
+                <div className="cornerrr-2" />
+                <div className="cornerrr-3" />
+                <div className="cornerrr-4" />
+                <div className="cornerrr-5" />
+                <div className="cornerrr-6" />
+                <div className="cornerrr-7" />
+                <div className="cornerrr-8" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -184,3 +184,88 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.85),
     0px 0px 8px 0px rgba(9, 255, 137, 0.85), 0px 2px 15px 0px #b7ffef;
 }
+
+.cornerrr-1 {
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background-color: #67e9cb;
+  top: -8px;
+  left: -8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.85),
+    0px 0px 6px rgba(9, 255, 137, 0.85), 0px 2px 15px #b7ffef;
+}
+
+.cornerrr-2 {
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #67e9cb;
+  top: -8px;
+  left: -8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.85),
+    0px 0px 6px rgba(9, 255, 137, 0.85), 0px 2px 15px #b7ffef;
+}
+
+.cornerrr-3 {
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background-color: #67e9cb;
+  top: -8px;
+  right: -8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.85),
+    0px 0px 6px rgba(9, 255, 137, 0.85), 0px 2px 15px #b7ffef;
+}
+.cornerrr-4 {
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #67e9cb;
+  top: -8px;
+  right: -8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.85),
+    0px 0px 6px rgba(9, 255, 137, 0.85), 0px 2px 15px #b7ffef;
+}
+
+.cornerrr-5 {
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background-color: #67e9cb;
+  bottom: -8px;
+  left: -8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.85),
+    0px 0px 6px rgba(9, 255, 137, 0.85), 0px 2px 15px #b7ffef;
+}
+.cornerrr-6 {
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #67e9cb;
+  bottom: -8px;
+  left: -8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.85),
+    0px 0px 6px rgba(9, 255, 137, 0.85), 0px 2px 15px #b7ffef;
+}
+
+.cornerrr-7 {
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  background-color: #67e9cb;
+  bottom: -8px;
+  right: -8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.85),
+    0px 0px 6px rgba(9, 255, 137, 0.85), 0px 2px 15px #b7ffef;
+}
+.cornerrr-8 {
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #67e9cb;
+  bottom: -8px;
+  right: -8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.85),
+    0px 0px 6px rgba(9, 255, 137, 0.85), 0px 2px 15px #b7ffef;
+}
