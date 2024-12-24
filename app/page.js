@@ -6,18 +6,18 @@ import Headset from "./section/Headset";
 import Experience from "./section/Experience";
 import TechSpecs from "./section/TechSpecs";
 import Virtual from "./section/Virtual";
+import InteractiveBlocks from "./section/InteractiveBlock";
 
 export default function Home() {
   return (
     <div>
-   
-     <Hero/>
-     <Building/>
-     <Headset/>
-     <Virtual/>
-     <Experience/>
-
-     <TechSpecs/>
+      <Hero />
+      <Building />
+      <InteractiveBlocks />
+      <Headset />
+      <Virtual />
+      <Experience />
+      <TechSpecs />
     </div>
   );
 }
