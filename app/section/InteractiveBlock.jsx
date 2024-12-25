@@ -81,21 +81,22 @@ export default function InteractiveBlocks() {
 
    const text1Opacity = useTransform(
      scrollYProgress,
-     [0, 0.32, 0.33], // Very quick fade at exactly 33%
+     [0, 0.2, 0.3], // Gradual fade out between 20% and 30%
      [1, 1, 0]
    );
 
    const text2Opacity = useTransform(
      scrollYProgress,
-     [0.32, 0.33, 0.39, 0.40], // Instant appear at 33%, gone at 66%
-     [0, 1,1,  0]
+     [0.25, 0.35, 0.45], // Gradual fade in between 25% and 35%, fade out between 35% and 45%
+     [0, 1, 0]
    );
 
    const text3Opacity = useTransform(
      scrollYProgress,
-     [0.39, 0.40, 1], // Instant appear at 66%
-     [0, 1, 1]
+     [0.4, 0.6, 0.8], // Gradual fade in and fade out
+     [0, 1, 0]
    );
+
   return (
     <div
       className="relative h-[400vh] "
