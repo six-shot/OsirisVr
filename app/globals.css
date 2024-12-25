@@ -270,6 +270,14 @@ body {
     0px 0px 6px rgba(9, 255, 137, 0.85), 0px 2px 15px #b7ffef;
 }
 
+.content {
+position:relative;
+ pointer-events: none; 
+
+  z-index: 100;
+
+}
+
 
 
 #blocks {

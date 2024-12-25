@@ -1,9 +1,11 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { FiPlus } from "react-icons/fi";
 
 export default function TechSpecs() {
+
   return (
     <div>
       <div className="relative  w-full h-full flex flex-col items-center max-w-[1440px] mx-auto ">
@@ -47,6 +49,7 @@ export default function TechSpecs() {
             </div>
           </div>
         </div>
+        
         <div className="mt-[200px]  ">
           {" "}
           <div className="text-center font-[family-name:var(--font-neue)">

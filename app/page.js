@@ -18,7 +18,7 @@ export default function Home() {
       <Headset />
       <Virtual />
       <Experience />
-    
+  
       <TechSpecs />
     </div>
   );
