@@ -7,6 +7,7 @@ import Experience from "./section/Experience";
 import TechSpecs from "./section/TechSpecs";
 import Virtual from "./section/Virtual";
 import InteractiveBlocks from "./section/InteractiveBlock";
+import Testimonial from "./section/test";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Headset />
       <Virtual />
       <Experience />
+    
       <TechSpecs />
     </div>
   );
