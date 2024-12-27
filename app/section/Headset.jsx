@@ -14,32 +14,33 @@ export default function Headset() {
         <div className="mt-[200px]">
           {" "}
           <div className="text-center font-[family-name:var(--font-neue)]">
-            <div className=" h-[28px] overflow-hidden relative z-20 ">
-              <h1 className="txt text-black  uppercase text-[3.375rem] leading-[1.2] font-bold mt-[2px] ">
+            <div className="md:flex hidden  h-[28px] overflow-hidden relative z-20 ">
+              <h1 className="txt text-black  uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold mt-[2px] ">
                 The fully
               </h1>
             </div>
-            <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
-              The fully
-            </h1>
-            <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
-              immersive
-            </h1>
-            <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
+            <div className=" h-[28px] overflow-hidden relative z-20 ">
+              <h1 className="txt text-black  uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold mt-[2px] ">
+                The fully immersive
+              </h1>
+            </div>
+            <h1 className="text-[#DDDDDD] uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold ">
+              The fully <br className="md:flex hidden" /> immersive{" "}
+              <br className="" />
               VR headset
             </h1>
+            <h1 className="text-[#DDDDDD] uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold "></h1>
+            <h1 className="text-[#DDDDDD] uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold "></h1>
           </div>
         </div>
-        <div className="relative mt-[100px]  flex justify-center items-center h-[700px] ">
-          <Image
+        <div className="relative mt-[100px]  flex flex-col justify-center items-center md:h-[700px]  ">
+          <img
             src="/headset.webp"
             alt="headset"
-            className="relative z-[20]"
-            width={400}
-            height={350}
+            className="relative z-[20] md:w-[400px] md:h-[350px] w-[280px] h-[260px]"
             unoptimized
           />
-          <div className="absolute left-[40px] px-[60px] top-0 text-[#dddddd]/30 font-[family-name:var(--font-roboto-mono)]">
+          <div className="md:hidden flex text-[#dddddd]/30 font-[family-name:var(--font-roboto-mono)]">
             <div className="flex gap-5 flex-col">
               <div className="w-[56px] h-[56px] rounded-full border border-[#67e9cb]/40 flex items-center justify-center">
                 <Image src="/360.svg" alt="360" width={26} height={26} />
@@ -51,7 +52,19 @@ export default function Headset() {
               </p>
             </div>
           </div>
-          <div className="absolute left-[40px] px-[60px] bottom-[110px] text-[#dddddd]/30 font-[family-name:var(--font-roboto-mono)]">
+          <div className="absolute md:flex hidden left-[40px] px-[60px] top-0 text-[#dddddd]/30 font-[family-name:var(--font-roboto-mono)]">
+            <div className="flex gap-5 flex-col">
+              <div className="w-[56px] h-[56px] rounded-full border border-[#67e9cb]/40 flex items-center justify-center">
+                <Image src="/360.svg" alt="360" width={26} height={26} />
+              </div>
+              <h5 className="text-[20px] ">360-degree Vision</h5>
+              <p className="w-[320px] ">
+                Watch as a living, breathing game world comes alive all around
+                you, with a seamless field of view wherever you turn
+              </p>
+            </div>
+          </div>
+          <div className="absolute md:flex hidden left-[40px] px-[60px] bottom-[110px] text-[#dddddd]/30 font-[family-name:var(--font-roboto-mono)]">
             <div className="flex gap-5 flex-col">
               <div className="w-[56px] h-[56px] rounded-full border border-[#67e9cb]/40 flex items-center justify-center">
                 <Image src="/mic.svg" alt="360" width={18} height={18} />
@@ -64,7 +77,7 @@ export default function Headset() {
             </div>
           </div>
 
-          <div className="absolute right-[40px] px-[60px] top-[150px] text-[#dddddd]/30 font-[family-name:var(--font-roboto-mono)]">
+          <div className="absolute md:flex hidden right-[40px] px-[60px] top-[150px] text-[#dddddd]/30 font-[family-name:var(--font-roboto-mono)]">
             <div className="flex gap-5 flex-col">
               <div className="w-[56px] h-[56px] rounded-full border border-[#67e9cb]/40 flex items-center justify-center">
                 <Image src="/stunning.svg" alt="360" width={26} height={26} />
@@ -77,6 +90,7 @@ export default function Headset() {
             </div>
           </div>
         </div>
+      
       </div>
     </div>
   );

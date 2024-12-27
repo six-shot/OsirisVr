@@ -17,53 +17,53 @@ export default function TechSpecs() {
         <span className="absolute z-1 top-[19%] left-1/2 transform -translate-x-1/2 w-[2px] rounded-full h-[55px] bg-[#FCFF80ed] blur-[2px]"></span>
 
         <div className="flex flex-col font-[family-name:var(--font-neue)] mt-[210px]  w-full">
-          <div className="px-12">
+          <div className="md:px-12 px-4">
             {" "}
             <div className=" h-[28px] overflow-hidden relative z-20 ">
-              <h1 className="txt text-black  uppercase text-[3.375rem] leading-[1.2] font-bold mt-[2px] ">
+              <h1 className="txt text-black  uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold mt-[2px] ">
                 Tech Specs
               </h1>
             </div>
-            <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
+            <h1 className="text-[#DDDDDD] uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold ">
               Tech Specs
             </h1>
           </div>
           <div className="text-white  relative  mt-[100px]  z-10 ">
-            <div className="w-full h-[112px] border-t border-b border-[#F4FAFC]/20  flex items-center px-12  ">
+            <div className="w-full h-[112px] border-t border-b border-[#F4FAFC]/20  flex items-center md:px-12 px-4  ">
               <h4 className="text-[20px] font-[family-name:var(--font-roboto-mono)] bg-black w-full h-full flex justify-between items-center ">
                 Specifications
               </h4>
-              <div className="w-[54px] h-[52px] rounded-full border border-[#F4FAFC]/20 flex items-center justify-center">
+              <div className="w-[54px] md:h-[52px] h-[54px] rounded-full border border-[#F4FAFC]/20 flex items-center justify-center">
                 <FiPlus className="text-[28px]" />
               </div>
             </div>
           </div>
           <div className="text-white  relative z-[20]">
-            <div className="w-full h-[112px] border-t border-b border-[#F4FAFC]/20  flex justify-between items-center px-12">
+            <div className="w-full h-[112px] border-t border-b border-[#F4FAFC]/20  flex justify-between items-center md:px-12 px-4">
               <h4 className="text-[20px] font-[family-name:var(--font-roboto-mono)] bg-black w-full h-full flex items-center  ">
                 Accessories
               </h4>
-              <div className="w-[54px] h-[52px] rounded-full border border-[#F4FAFC]/20 flex items-center justify-center">
+              <div className="w-[54px] md:h-[52px] h-[54px] rounded-full border border-[#F4FAFC]/20 flex items-center justify-center">
                 <FiPlus className="text-[28px]" />
               </div>
             </div>
           </div>
         </div>
-        
+
         <div className="mt-[200px]  ">
           {" "}
           <div className="text-center font-[family-name:var(--font-neue)">
             <div className=" h-[28px] overflow-hidden relative z-20 ">
-              <h1 className="txt text-black  uppercase text-[3.375rem] leading-[1.2] font-bold mt-[2px] ">
+              <h1 className="txt text-black  uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold mt-[2px] ">
                 Get news & Updates
               </h1>
             </div>
-            <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
+            <h1 className="text-[#DDDDDD] uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold ">
               Get news & Updates
             </h1>
           </div>
           <div className="flex justify-center mt-20 relative z-[10]">
-            <div className="px-[7.5rem] py-[4rem] bg-[#0a0c0a] flex items-center">
+            <div className="md:px-[7.5rem] py-[4rem] bg-[#0a0c0a] flex items-center">
               <div>
                 <div className="flex justify-between">
                   <input
@@ -80,7 +80,7 @@ export default function TechSpecs() {
                   </div>
                 </div>
 
-                <div className="w-[582px] h-[1px] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC] mt-2" />
+                <div className="md:w-[582px] w-full h-[1px] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC] mt-2" />
               </div>
             </div>
           </div>

@@ -4,7 +4,13 @@ import Navbar from "../global/Navbar";
 export default function Hero() {
   return (
     <div className="overflow-hidden relative w-full h-[100vh] ">
-      <div className="absolute right-0 top-0  h-[100vh] z-10">
+      <div className="absolute inset-0  md:hidden flex items-center justify-center z-[20] font-[family-name:var(--font-neue)] px-[5.5%]">
+        <div className="relative  w-full h-full flex items-center max-w-[1440px] mx-auto ">
+          <span className="absolute top-0 left-1/2 transform -translate-x-1/2 w-[1px] h-full bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>
+          <span className="absolute top-[19%] left-1/2 transform -translate-x-1/2 w-[2px] rounded-full h-[55px] bg-[#FCFF80ed] blur-[2px]"></span>
+        </div>
+      </div>
+      <div className="md:flex hidden absolute right-0 top-0  h-[100vh] z-10">
         <video
           className="w-full h-full object-cover"
           src={"/hero.mp4"}
@@ -14,12 +20,45 @@ export default function Hero() {
           playsInline
         />
       </div>
+      <div>
+        <div className="md:hidden flex relative right-[50%]  z-10 w-[150%] h-[474px]">
+          <video
+            className="w-[150%]  h-full"
+            src={"/hero.mp4"}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </div>
+        <div className="md:hidden flex flex-col font-[family-name:var(--font-neue)]   px-[5%]">
+          <div className="relative">
+            <div className=" h-[40px] overflow-hidden absolute bottom-[43px] -z-[60] ">
+              <h1 className="txt1  uppercase text-[2.5rem] leading-[1.2] font-bold mt-[12px] ">
+                create your
+              </h1>
+            </div>
+            <div className=" h-[50px]  overflow-hidden relative z-20 ">
+              <h1 className="txt  uppercase text-[2.5rem] leading-[1.2] font-bold mt-[2px] ">
+                create your
+              </h1>
+            </div>
+          </div>
+          <h1 className="text-[#DDDDDD] uppercase text-[2.5rem] leading-[1.2] font-bold ">
+            create your <br /> own vr <br /> reality
+          </h1>
+
+          <p className="font-[family-name:var(--font-roboto-mono)] w-[328px] ml-[3rem] text-[1rem] font-light text-[#DDDDDD]  mt-[50px]">
+            Immersee yourself in increadinle virtual reality and expetieces
+          </p>
+        </div>
+      </div>
 
       <div className="absolute top-0 left-0 w-full z-[50]">
         <Navbar />
       </div>
 
-      <div className=" ">
+      <div className="md:flex hidden ">
         <div className="absolute inset-0  flex items-center justify-center z-[20] font-[family-name:var(--font-neue)] px-[5.5%]">
           <div className="relative  w-full h-full flex items-center max-w-[1440px] mx-auto ">
             <span className="absolute top-0 left-0 w-[1px] h-[100vh] bg-[#F4FAFC]/20 shadow-[0px_4px_24px_#F4FAFC]"></span>

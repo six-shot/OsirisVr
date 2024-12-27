@@ -96,7 +96,7 @@ export default function InteractiveBlocks() {
      [0.4, 0.6, 0.8], // Gradual fade in and fade out
      [0, 1, 0]
    );
-
+    
   return (
     <div
       className="relative h-[400vh] "
@@ -104,7 +104,7 @@ export default function InteractiveBlocks() {
     >
       <div className="fixed top-1/2 transform -translate-y-1/2 h-[600px] w-full ">
         <div id="blocks" ref={blockContainerRef}></div>
-        <div className="w-full  relative flex items-center max-w-[1440px] mx-auto px-[240px] ">
+        <div className="w-full  relative flex items-center max-w-[1440px] mx-auto md:px-[240px] px-4 ">
           <div className="content mt-[150px] w-full h-full relative flex items-center bg-red-500 text-white ">
             <div className="sticky  text-white">
               {/* Text 1 */}
@@ -114,7 +114,7 @@ export default function InteractiveBlocks() {
 
                   position: "absolute", // Overlap all texts in the same position
                 }}
-                className="text-[#ddd] font-extralight font-[family-name:var(--font-roboto-mono)] text-[1.5rem] w-[400px]"
+                className="text-[#ddd] font-extralight font-[family-name:var(--font-roboto-mono)] md:text-[1.5rem] text-[1rem] w-[400px]"
               >
                 Sit back and immerse yourself with a range of stunning virtual
                 reality experiences, from scaling Mount Everest to exploring the
@@ -128,7 +128,7 @@ export default function InteractiveBlocks() {
 
                   position: "absolute", // Overlap all texts in the same position
                 }}
-                className="text-[#ddd] font-extralight font-[family-name:var(--font-roboto-mono)] text-[1.5rem] w-[400px]"
+                className="text-[#ddd] font-extralight font-[family-name:var(--font-roboto-mono)] md:text-[1.5rem] text-[1rem] w-[400px]"
               >
                 Sit back and immerse yourself with a range of stunning virtual
                 reality experiences, from scaling Mount Everest to exploring the
@@ -142,7 +142,7 @@ export default function InteractiveBlocks() {
 
                   position: "absolute", // Overlap all texts in the same position
                 }}
-                className="text-[#ddd] font-extralight font-[family-name:var(--font-roboto-mono)] text-[1.5rem] w-[400px]"
+                className="text-[#ddd] font-extralight font-[family-name:var(--font-roboto-mono)] md:text-[1.5rem] text-[1rem] w-[400px]"
               >
                 Sit back and immerse yourself with a range of stunning virtual
                 reality experiences, from scaling Mount Everest to exploring the

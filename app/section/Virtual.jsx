@@ -13,19 +13,19 @@ export default function Virtual() {
 
       <div className="grid grid-cols-2  items-center">
         <div className="col-span-1">
-          <div className=" font-[family-name:var(--font-neue)] px-[74px]">
+          <div className=" font-[family-name:var(--font-neue)] md:px-[74px]">
             <div className=" h-[28px] overflow-hidden relative z-20 ">
-              <h1 className="txt text-black  uppercase text-[3.375rem] leading-[1.2] font-bold mt-[2px] ">
+              <h1 className="txt text-black  uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold mt-[2px] ">
                 DISCOVER THE
               </h1>
             </div>
-            <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
+            <h1 className="text-[#DDDDDD] uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold ">
               DISCOVER THE
             </h1>
-            <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
+            <h1 className="text-[#DDDDDD] uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold ">
               Possibilities
             </h1>
-            <h1 className="text-[#DDDDDD] uppercase text-[3.375rem] leading-[1.2] font-bold ">
+            <h1 className="text-[#DDDDDD] uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold ">
               of Vr
             </h1>
           </div>
@@ -55,7 +55,7 @@ export default function Virtual() {
           </div>
         </div>
         <div className="col-span-1 px-[100px]">
-          <div className='relative w-[429px]'>
+          <div className="relative w-[429px]">
             <Image src="/vr1.webp" width={420} height={532} alt="vr" />
             <div className="absolute -bottom-5 right-[40px]">
               <div className="relative w-[145px]  ">

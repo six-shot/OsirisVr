@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="py-10 mt-20">
       <div className="max-w-[1440px] mx-auto ">
-        <div className="px-12 flex justify-between items-center">
+        <div className="px-12 flex md:flex-row flex-col md:gap-0 gap-[30px] justify-between items-center">
           <div className="text-[#67e9cb] text-[24px] flex items-center gap-6">
             <FaLinkedin />
             <FaTwitter />
