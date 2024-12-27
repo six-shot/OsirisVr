@@ -14,13 +14,13 @@ export default function Headset() {
         <div className="mt-[200px]">
           {" "}
           <div className="text-center font-[family-name:var(--font-neue)]">
-            <div className="md:flex hidden  h-[28px] overflow-hidden relative z-20 ">
-              <h1 className="txt text-black  uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold mt-[2px] ">
+            <div className="md:flex hidden  justify-center  h-[28px] overflow-hidden relative z-20 ">
+              <h1 className="txt text-black text-center   uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold mt-[2px] ">
                 The fully
               </h1>
             </div>
             <div className=" h-[28px] overflow-hidden relative z-20 ">
-              <h1 className="txt text-black  uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold mt-[2px] ">
+              <h1 className="txt text-black md:hidden flex  uppercase md:text-[3.375rem] text-[2rem] leading-[1.2] font-bold mt-[2px] ">
                 The fully immersive
               </h1>
             </div>

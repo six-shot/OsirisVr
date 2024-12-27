@@ -11,7 +11,7 @@ import Testimonial from "./section/test";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Hero />
       <Building />
       <InteractiveBlocks />
