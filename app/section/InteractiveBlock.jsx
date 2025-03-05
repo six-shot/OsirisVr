@@ -128,7 +128,7 @@ export default function InteractiveBlocks() {
   return (
     <div
       ref={targetRef}
-      className="relative h-[200vh] "
+      className="relative h-[100vh] "
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
       <div className=" ">
