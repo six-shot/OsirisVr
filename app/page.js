@@ -8,6 +8,7 @@ import TechSpecs from "./section/TechSpecs";
 import Virtual from "./section/Virtual";
 import InteractiveBlocks from "./section/InteractiveBlock";
 import Testimonial from "./section/test";
+import ImageSequencePage from "./section/ImageSequence";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       <Virtual />
       <Experience />
       <TechSpecs />
-   
+    
     </div>
   );
 }
