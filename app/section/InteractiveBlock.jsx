@@ -128,23 +128,25 @@ export default function InteractiveBlocks() {
   return (
     <div
       ref={targetRef}
-      className="relative h-[200vh] overflow-hidden"
+      className="relative h-[200vh] "
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
-      <div className="sticky top-0 h-screen w-full">
-        <div id="blocks" ref={blockContainerRef}></div>
-        <div className="w-full relative flex items-center max-w-[1440px] mx-auto md:px-[240px] px-4 h-full">
-          <div className="w-[50%] content h-full relative flex items-center text-white">
-            <div className="sticky text-white">
-              <h4 className="text-[#ddd] font-extralight font-[family-name:var(--font-roboto-mono)] md:text-[1.5rem] text-[1rem] w-[400px]">
-                Sit back and immerse yourself with a range of stunning virtual
-                reality experiences, from scaling Mount Everest to exploring the
-                ocean floor.{" "}
-              </h4>
+      <div className=" ">
+        <div className="sticky top-0 h-[600px] w-full">
+          <div id="blocks" ref={blockContainerRef}></div>
+          <div className="w-full relative flex items-center max-w-[1440px] mx-auto md:px-[240px] px-4 h-full">
+            <div className="w-[50%] content h-full relative flex items-center text-white">
+              <div className="sticky text-white">
+                <h4 className="text-[#ddd] font-extralight font-[family-name:var(--font-roboto-mono)] md:text-[1.5rem] text-[1rem] w-[400px]">
+                  Sit back and immerse yourself with a range of stunning virtual
+                  reality experiences, from scaling Mount Everest to exploring
+                  the ocean floor.{" "}
+                </h4>
+              </div>
             </div>
-          </div>
-          <div className="w-[50%] h-[600px]">
-            <ImageSequencePage progress={scrollYProgress} />
+            <div className="w-[50%] h-[600px]">
+              <ImageSequencePage progress={scrollYProgress} />
+            </div>
           </div>
         </div>
       </div>
