@@ -107,32 +107,14 @@ export default function InteractiveBlocks() {
     return () => window.removeEventListener("scroll", updateScroll);
   }, []);
 
-  const text1Opacity = useTransform(
-    scrollYProgress,
-    [0, 0.2, 0.3], // Gradual fade out between 20% and 30%
-    [1, 1, 0]
-  );
-
-  const text2Opacity = useTransform(
-    scrollYProgress,
-    [0.25, 0.35, 0.45], // Gradual fade in between 25% and 35%, fade out between 35% and 45%
-    [0, 1, 0]
-  );
-
-  const text3Opacity = useTransform(
-    scrollYProgress,
-    [0.4, 0.6, 0.8], // Gradual fade in and fade out
-    [0, 1, 0]
-  );
-
   return (
     <div
       ref={targetRef}
-      className="relative h-[100vh] "
+      className="relative h-[170vh]  "
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
     >
       <div className=" ">
-        <div className="sticky top-0 h-[600px] w-full">
+        <div className="fixed top-1/2 transform -translate-y-1/2 h-[600px] w-full ">
           <div id="blocks" ref={blockContainerRef}></div>
           <div className="w-full relative flex items-center max-w-[1440px] mx-auto md:px-[240px] px-4 h-full">
             <div className="w-[50%] content h-full relative flex items-center text-white">
