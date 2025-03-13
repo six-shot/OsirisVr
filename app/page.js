@@ -20,7 +20,6 @@ export default function Home() {
       <Virtual />
       <Experience />
       <TechSpecs />
-    
     </div>
   );
 }
