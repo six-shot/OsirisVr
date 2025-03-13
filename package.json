@@ -12,6 +12,7 @@
     "@gsap/react": "^2.1.2",
     "@mantine/hooks": "^7.17.1",
     "framer-motion": "^11.15.0",
+    "gsap": "^3.12.7",
     "next": "15.0.3",
     "next-video": "^1.4.0",
     "react": "19.0.0-rc-66855b96-20241106",
