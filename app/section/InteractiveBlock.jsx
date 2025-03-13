@@ -107,6 +107,8 @@ export default function InteractiveBlocks() {
     return () => window.removeEventListener("scroll", updateScroll);
   }, []);
 
+
+
   return (
     <div
       ref={targetRef}

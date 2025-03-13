@@ -58,6 +58,9 @@ const ImageSequenceHeader = () => {
       const context = canvas.current.getContext("2d", { alpha: true });
       if (!context) return;
 
+      // Clear any existing ScrollTrigger with this ID
+      ScrollTrigger.getById("image-sequence")?.kill();
+
       ScrollTrigger.create({
         id: "image-sequence",
         trigger: header.current,
@@ -71,6 +74,9 @@ const ImageSequenceHeader = () => {
           updateCanvasImage(context, canvas.current, nextImage, progress);
         },
       });
+
+      // Force a refresh of ScrollTrigger
+      ScrollTrigger.refresh();
 
       gsap.set(canvas.current, { opacity: 1 });
     },
